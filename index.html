@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/modern-normalize.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="controls">
+            <a class="name_page" href="./index.html">WebStudio</a>
+            <div class="header_estudio">
+                <a href="./index.html" class="nav_estudio">Estudio</a>
+                <p class="line_estudio"></p>
+            </div>
+            <div class="header_portafolio">
+                <a href="./portfolio.html" class="nav_portafolio">Portafolio</a>               
+            </div>
+            <a href="./portfolio.html" class="nav_contactos">Contactos</a>
+            <svg class="mail_icon" aria-hidden="true" width="44px" height="44px">
+                <use href="./images/icons.svg#buzon" ></use>
+            </svg>
+            <a class="mail" href="mailto: info@devstudio.com">info@devstudio.com
+                
+            </a>
+            <svg class="tel_icon" aria-hidden="true" width="44px" height="44px">
+                <use href="./images/icons.svg#logo_cel" ></use>
+            </svg>
+            <a class="tel" href="tel: +52 55 5529 6000">+52 55 5529 6000</a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <h1 class="message_1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            <!-- <button class="boton" type="buttonz">Solicite nuestro servicio</button> -->
+            <button class="boton" id="openModalBtn">Solicite nuestro servicio</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Contenido de la ventana modal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-descrip">
+            <div class="services-descrip_1">
+                <svg class="icon antena" width="270" height="120">
+                    <use href="./images/icons.svg#antena1" x="102" y="25"></use>
+                </svg>
+                <h3 class="tittle_descript_1">ATENCIÓN A LOS DETALLES</h3>
+                <p class="descript_1">Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
+            </div>
+            <div class="services-descrip_2">
+                <svg class="icon reloj" width="270" height="120">
+                    <use href="./images/icons.svg#reloj1" x="102" y="25"></use>
+                </svg>
+                <h3 class="tittle_descript_2">PUNTUALIDAD</h3>
+                <p class="descript_2">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su<br> tiempo y respetar los plazos acordados.</p>
+            </div>
+            <div class="services-descrip_3">
+                <svg class="icon compu" width="270" height="120">
+                    <use href="./images/icons.svg#compu" x="102" y="25"></use>
+                </svg>
+                <h3 class="tittle_descript_3">PLANIFICACIÓN</h3>
+                <p class="descript_3">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+            </div>
+            <div class="services-descrip_4">
+                <svg class="icon astro" width="270" height="120">
+                    <use href="./images/icons.svg#astro" x="102" y="25"></use>
+                </svg>
+                <h3 class="tittle_descript_4">TEGNOLOGÍA MODERNA</h3>
+                <p class="descript_4">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
+            </div>
+        </div>
+        <div>
+            <h2 class="dedicate">A qué nos dedicamos</h2>
+            <div class="images_what">
+                <div class="thumb">
+                    <img src="./images/imagen_1_.jpg" alt="imagen_1_" width="373px" height="323.7px">
+                    <p class="label">APLICACIONES DE ESCRITORIO</p>
+                </div>
+                <div class="thumb">
+                    <img src="./images/imagen_2_.jpg" alt="imagen_2_" width="373px" height="323.7px">
+                    <p class="label">APLICACIONES MÓVILES</p>
+                </div>
+                <div class="thumb">
+                    <img src="./images/imagen_3_.jpg" alt="imagen_3_" width="373px" height="323.7px">
+                    <p class="label">SOLUCIONES DE DISEÑO</p>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <h2>Nuestro Equipo</h2>
+            <div class="team_flex">
+                <div class="team_1">
+                    <img src="./images/person_1_.jpg" alt="andres" width="270px" height="260px">
+                    <div class="team_1_name"><strong>Andrés Cubo</strong><br><p class="pteam_1">Diseñador de Productos</p></div>
+                        <div class="icon_redes">
+                            <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                                <use href="./images/icons.svg#instag" x="13px" y="11px"></use>
+                            </svg>
+                            <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                                <use href="./images/icons.svg#twitter" x="13px" y="11px"></use>
+                            </svg>
+                            <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                                <use href="./images/icons.svg#facebook" x="12px" y="11px"></use>
+                            </svg>
+                            <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                                <use href="./images/icons.svg#linked" x="12px" y="11px"></use>
+                            </svg>
+                        </div>    
+                </div>
+                <div class="team_2">
+                    <img src="./images/person_2_.jpg" alt="carla" width="270px" height="260px">
+                    <div class="team_2_name"><strong>Carla Palacios</strong><br><p class="pteam_2">Desarrolladora Frontend</p></div>
+                    <div class="icon_redes">
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#instag" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#twitter" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#facebook" x="12px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#linked" x="12px" y="11px"></use>
+                        </svg>
+                    </div> 
+                </div>
+                <div class="team_3">
+                    <img src="./images/person_3_.jpg" alt="mario" width="270px" height="260px">
+                    <div class="team_3_name"><strong>Mario Dorado</strong><br><p>Marketing</p></div>
+                    <div class="icon_redes">
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#instag" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#twitter" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#facebook" x="12px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#linked" x="12px" y="11px"></use>
+                        </svg>
+                    </div> 
+                </div>
+                <div class="team_4">
+                    <img src="./images/person_4_.jpg" alt="pablo" width="270px" height="260px">
+                    <div class="team_4_name"><strong>Pablo Mijangos</strong><br><p>Diseñador IU</p></div>
+                    <div class="icon_redes">
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#instag" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#twitter" x="13px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#facebook" x="12px" y="11px"></use>
+                        </svg>
+                        <svg class="personal_redes" aria-hidden="true" width="44px" height="44px">
+                            <use href="./images/icons.svg#linked" x="12px" y="11px"></use>
+                        </svg>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="clientes">
+            <h2>Clientes Regulares</h2>
+            <div class="clientes_flex">
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#yaco" x="32px" y="14px"></use>
+                </svg>
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#company" x="32px" y="14px"></use>
+                </svg>
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#companyC" x="32px" y="14px"></use>
+                </svg>
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#forester" x="32px" y="14px"></use>
+                </svg>
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#brand" x="32px" y="14px"></use>
+                </svg>
+                <svg class="clientx" width="171px" height="81px">
+                    <use href="./images/icons.svg#tag_line" x="32px" y="14px"></use>
+                </svg>
+            </div>
+        </div>
+    </main>
+    <footer class="constac_footer">
+        <div class="add">
+            <a href="./index.html">WebStudio</a>
+            <address class="addres1">
+                <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+                <a href="mailto: info@devstudio.com">info@devstudio.com</a><br>
+                <a href="tel: +52 55 5529 6000">+52 55 5529 6000</a>
+            </address>
+        </div>
+        <div class="redes_org">
+            <p>ENCUENTRENOS EN</p>
+            <div class="icon_org">
+                <svg class="org_redes" aria-hidden="true" width="44px" height="44px">
+                    <use href="./images/icons.svg#instag" x="13px" y="11px"></use>
+                </svg>
+                <svg class="org_redes" aria-hidden="true" width="44px" height="44px">
+                    <use href="./images/icons.svg#twitter" x="13px" y="11px"></use>
+                </svg>
+                <svg class="org_redes" aria-hidden="true" width="44px" height="44px">
+                    <use href="./images/icons.svg#facebook" x="12px" y="11px"></use>
+                </svg>
+                <svg class="org_redes" aria-hidden="true" width="44px" height="44px">
+                    <use href="./images/icons.svg#linked" x="12px" y="11px"></use>
+                </svg>
+            </div>
+        </div>
+    </footer>
+    <!-- Se llama el archivo javascipt para el uso del boton -->
+    <script src="./js/modal.js"></script>
+</body>
+</html>
