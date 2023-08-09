@@ -16,9 +16,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     width: 1600px;
-    height: 2931px;
+    /* height: 2931px; */
     margin: 0 auto;
     color: var(--font--color);
+    overflow-x: hidden;
 }
 header{
     border: 1px solid #ECECEC;
@@ -705,7 +706,7 @@ address > a{
 }
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* Centra la ventana modal verticalmente */
+    margin: 3% auto; /* Centra la ventana modal verticalmente */
     padding: 20px;
     border: 1px solid #888;
     width: 528px;
